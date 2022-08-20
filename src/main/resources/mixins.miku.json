@@ -1,0 +1,22 @@
+{
+  "package": "me.auto.miku.api.mixin",
+  "refmap": "mixins.miku.refmap.json",
+  "required": true,
+  "target": "@env(DEFAULT)",
+  "compatibilityLevel": "JAVA_8",
+  "verbose": false,
+  "mixins": [
+    "MixinCPacketPlayer",
+    "MixinCPacketUseEntity",
+    "MixinEntityPlayerSP",
+    "MixinEntityRenderer",
+    "MixinFontRenderer",
+    "MixinItemRenderer",
+    "MixinMinecraft",
+    "MixinNetworkManager",
+    "MixinRenderItem",
+    "MixinRenderLivingBase",
+    "MixinRenderManager",
+    "MixinWorld"
+  ]
+}
